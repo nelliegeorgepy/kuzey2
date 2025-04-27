@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application colors -->
+    <color name="primary">#3797EF</color>
+    <color name="primary_dark">#2d6eab</color>
+    <color name="primary_light">#64b5f6</color>
+    <color name="accent">#3797EF</color>
+
+    <!-- Background colors -->
+    <color name="background_primary">#060e19</color>
+    <color name="background_secondary">#0d1524</color>
+    <color name="background_tertiary">#1a2335</color>
+    <color name="background_card">#0d1524</color>
+    <color name="background_dialog">#0d1524</color>
+    <color name="bottom_nav_colors">#4E6288</color>
+
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_hint">#80FFFFFF</color>
+
+    <!-- Status colors -->
+    <color name="success">#34C759</color>
+    <color name="warning">#FF9500</color>
+    <color name="error">#FF3B30</color>
+    <color name="info">#5AC8FA</color>
+
+    <!-- Feature colors -->
+    <color name="pro_badge">#FFD700</color>
+    <color name="media_type">#3797EF</color>
+    <color name="follows_you">#34C759</color>
+    <color name="savings">#34C759</color>
+    <color name="popular">#FF9500</color>
+
+    <!-- Bottom navigation colors -->
+    <color name="nav_active">#3797EF</color>
+    <color name="nav_inactive">#80FFFFFF</color>
+
+    <!-- Dialog colors -->
+    <color name="dialog_button_positive">#3797EF</color>
+    <color name="dialog_button_negative">#1a2335</color>
+    <color name="dialog_border">#3797EF</color>
+
+    <!-- Transparent colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#26FFFFFF</color>
+
+    <!-- Legacy colors (needed for compatibility) -->
+    <color name="purple_200">#3797EF</color>
+    <color name="purple_500">#3797EF</color>
+    <color name="purple_700">#2d6eab</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name and Info -->
+    <string name="app_name">InstagramAnalyzer</string>
+    <string name="app_tagline">Discover who\'s interested in your profile</string>
+    <string name="version_placeholder">Version 1.0.0</string>
+    <string name="version_format">Version %s</string>
+    <string name="version_unknown">Version Unknown</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="visitors">Visitors</string>
+    <string name="stories">Stories</string>
+    <string name="chat">Chat</string>
+    <string name="tools">Tools</string>
+    <string name="back">Back</string>
+    <string name="see_more">See More</string>
+
+    <!-- Common UI Elements -->
+    <string name="continue_text">Continue</string>
+    <string name="select">Select</string>
+    <string name="login_with_instagram">Login with Instagram</string>
+    <string name="loading_data">Loading Data…</string>
+    <string name="header_image">Header Image</string>
+    <string name="story_image">Story Image</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="watch_stories">Watch</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="pro_only">PRO Only</string>
+    <string name="pro">PRO</string>
+    <string name="pro_feature">PRO Feature</string>
+    <string name="upgrade_to_pro">Upgrade to PRO</string>
+    <string name="send">Send</string>
+    <string name="type_a_message">Type a message…</string>
+    <string name="story_thumbnail">Story Thumbnail</string>
+    <string name="follows_you">Follows You</string>
+    <string name="save_50_percent">Save 50%</string>
+    <string name="popular">POPULAR</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Discover Your Followers</string>
+    <string name="onboarding_description_1">See who follows you, who doesn\'t follow you back, and track unfollowers easily.</string>
+    <string name="onboarding_image_1">Onboarding Image 1</string>
+    <string name="onboarding_title_2">Analyze Your Stories</string>
+    <string name="onboarding_description_2">View all stories from accounts you follow and save them for later.</string>
+    <string name="onboarding_image_2">Onboarding Image 2</string>
+    <string name="onboarding_title_3">Track Profile Statistics</string>
+    <string name="onboarding_description_3">Monitor who visits your profile, find secret admirers, and get insights on your engagement.</string>
+    <string name="onboarding_image_3">Onboarding Image 3</string>
+
+    <!-- Main Activity -->
+    <string name="extract_data">Extract Data</string>
+    <string name="privacy_notice">Your privacy is important to us. We only analyze the data you see on your Instagram profile and do not store your login credentials.</string>
+    <string name="login_to_instagram">Please log in to your Instagram account</string>
+    <string name="instagram_loaded">Instagram page loaded. Please log in.</string>
+    <string name="login_successful">Login successful! Ready to extract data.</string>
+    <string name="starting_process">Starting process…</string>
+    <string name="navigating_to_home">Navigating to home page…</string>
+    <string name="checking_stories">Checking stories…</string>
+    <string name="checking_stories_attempt">Checking stories… (Attempt %1$d/%2$d)</string>
+    <string name="stories_failed_going_to_profile">Stories check failed, going to profile page…</string>
+    <string name="navigating_to_profile">Navigating to profile page…</string>
+    <string name="collecting_profile_stats">Collecting profile statistics…</string>
+    <string name="profile_info_retrieved">Profile information retrieved. Going to following page…</string>
+    <string name="profile_info_summary">User: %1$s, Posts: %2$d, Followers: %3$d, Following: %4$d</string>
+    <string name="accessing_following_list">Accessing following list…</string>
+    <string name="following_button_not_found">Following button not found, retrying…</string>
+    <string name="collecting_following_list">Collecting following list…</string>
+    <string name="following_count_found">Found %d people you follow</string>
+    <string name="returning_to_profile">Returning to profile page…</string>
+    <string name="accessing_followers_list">Accessing followers list…</string>
+    <string name="followers_visible_collecting">%d followers visible, collecting data…</string>
+    <string name="followers_list_failed">Followers list could not be opened, retrying…</string>
+    <string name="followers_loading_failed">Followers could not be loaded, retrying…</string>
+    <string name="followers_data_retrieval_failed">Followers data retrieval failed, retrying…</string>
+    <string name="followers_found">Found %d followers</string>
+    <string name="process_complete">Process complete. Results shown on new page.</string>
+    <string name="error_occurred">An error occurred.</string>
+    <string name="profile_not_found_retrying">Profile not found, retrying…</string>
+    <string name="stories_processed">Stories processed (%d). Going to profile page…</string>
+    <string name="followers_loaded_successfully">Followers loaded successfully.</string>
+
+    <!-- Dashboard Screen -->
+    <string name="last_updated_placeholder">Last updated: 24 Apr 2025, 15:30</string>
+    <string name="last_updated">Last updated: %s</string>
+    <string name="profile_visitors">Profile Visitors</string>
+    <string name="people_visited_your_profile">people visited your profile</string>
+    <string name="blockers">Blockers</string>
+    <string name="people_blocked_you">people blocked you</string>
+    <string name="secret_admirers">Secret Admirers</string>
+    <string name="secret_admirers_description">secret admirers</string>
+    <string name="not_following_back">Not Following Back</string>
+    <string name="not_following_back_description">People who don\'t follow you back</string>
+    <string name="not_following">Not Following</string>
+    <string name="not_following_description">People you don\'t follow back</string>
+    <string name="lost_followers">Lost Followers</string>
+    <string name="lost_followers_description">People who unfollowed you</string>
+    <string name="new_followers">New Followers</string>
+    <string name="new_followers_description">People who started following you</string>
+
+    <!-- Chat Screen -->
+    <string name="chat_assistant">Chat Assistant</string>
+    <string name="chat_welcome_message">Hello! I\'m your Instagram profile analysis assistant. How can I help you understand your Instagram analytics today?</string>
+
+    <!-- Stories Screen -->
+    <string name="no_stories_available">No stories available</string>
+    <string name="story_data_not_found">Story data not found</string>
+    <string name="media_url_not_found">Media URL not found</string>
+    <string name="video_load_error">Could not load video</string>
+    <string name="image_load_error">Could not load image</string>
+
+    <!-- Tools Screen -->
+    <string name="profile_photo_downloader">Profile Photo Downloader</string>
+    <string name="profile_photo_downloader_description">Download full resolution profile photos from any Instagram user</string>
+    <string name="media_downloader">Media Downloader</string>
+    <string name="media_downloader_description">Save photos and videos from posts, stories, and reels</string>
+    <string name="more_tools_coming_soon">More tools coming soon!</string>
+    <string name="feature_coming_soon">This feature is coming soon!</string>
+
+    <!-- Statistics Screen -->
+    <string name="could_not_open_profile">Could not open profile</string>
+
+
+    <!-- strings.xml dosyasına eklenecek ilave kaynaklar -->
+
+    <!-- PRO özellikler için sınırlı erişim mesajları -->
+    <string name="upgrade_to_see_all_not_following_back">PRO\'ya yükselt ve takip etmeyen tüm kullanıcıları gör.</string>
+    <string name="upgrade_to_see_all_not_following">PRO\'ya yükselt ve takip etmediğin tüm kullanıcıları gör.</string>
+    <string name="upgrade_to_see_all_lost_followers">PRO\'ya yükselt ve kaybettiğin tüm takipçileri gör.</string>
+    <string name="upgrade_to_see_all_new_followers">PRO\'ya yükselt ve tüm yeni takipçilerini gör.</string>
+
+    <!-- PRO diyalog mesajları -->
+    <string name="unlock_profile_visitors">Profil Ziyaretçilerini Aç</string>
+    <string name="unlock_profile_visitors_description">PRO\'ya yükselt ve %d profil ziyaretçisinin tamamını gör.</string>
+    <string name="unlock_blockers">Engelleyenleri Aç</string>
+    <string name="unlock_blockers_description">PRO\'ya yükselt ve %d engelleyenin tamamını gör.</string>
+    <string name="unlock_secret_admirers">Gizli Hayranları Aç</string>
+    <string name="unlock_secret_admirers_description">PRO\'ya yükselt ve %d gizli hayranın tamamını gör.</string>
+
+    <!-- Genel PRO yükseltme mesajları -->
+  >
+
+    <!-- PRO Features -->
+    <string name="pro_features">PRO Features</string>
+    <string name="pro_feature_title">PRO Feature</string>
+    <string name="pro_feature_description">Upgrade to PRO to unlock all features and remove limits.</string>
+    <string name="pro_feature_stories_description">Upgrade to PRO to view all stories without restrictions.</string>
+    <string name="pro_feature_limited_description">Free users can see only 3 items. Upgrade to PRO for unlimited access.</string>
+    <string name="pro_feature_exclusive_description">This is an exclusive PRO feature. Upgrade now to unlock!</string>
+    <string name="select_plan">Select a Plan</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="lifetime">Lifetime</string>
+    <string name="monthly_price">$4.99 / month</string>
+    <string name="yearly_price">$29.99 / year</string>
+    <string name="lifetime_price">$59.99 one-time</string>
+    <string name="pro_feature_1">Unlock all statistics and analytics</string>
+    <string name="pro_feature_2">No restrictions on viewing stories</string>
+    <string name="pro_feature_3">See who visited your profile</string>
+    <string name="pro_feature_4">Priority updates and support</string>
+    <string name="subscription_success">Successfully subscribed to %s plan!</string>
+    <string name="subscription_error">Error processing subscription</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">Settings</string>
+    <string name="app_settings">App Settings</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="legal">Legal</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="support">Support</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="about">About</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="language_changed">Language Changed</string>
+    <string name="app_restart_required">The app needs to restart to apply the language change.</string>
+    <string name="restart_now">Restart Now</string>
+    <string name="browser_not_found">Browser app not found</string>
+    <string name="email_app_not_found">Email app not found</string>
+    <string name="privacy_policy_url">https://example.com/privacy</string>
+    <string name="terms_of_service_url">https://example.com/terms</string>
+    <string name="support_email">support@instagramanalyzer.com</string>
+    <string name="support_email_subject">Instagram Analyzer Support Request</string>
+    <string name="logout_confirmation_title">Confirm Logout</string>
+    <string name="logout_confirmation_message">Are you sure you want to log out?</string>
+    <string name="logout_success">Logged out successfully</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_service">Service</string>
+    <string name="notification_channel_service_description">Notification to keep the app running in the background</string>
+    <string name="notification_channel_updates">Updates</string>
+    <string name="notification_channel_updates_description">Notifications about your Instagram profile</string>
+    <string name="notification_service_running">Instagram Analyzer is analyzing your profile in the background</string>
+    <string name="notification_default_title">Instagram Analyzer</string>
+    <string name="notification_default_message">Check your latest Instagram analytics</string>
+    <string name="notification_not_following_back_title">Not Following You Back</string>
+    <string name="notification_not_following_back_message">%s is not following you back</string>
+    <string name="notification_profile_visitors_title">Profile Visitors</string>
+    <string name="notification_profile_visitors_message">%d people visited your profile recently</string>
+    <string name="notification_lost_follower_title">Lost Follower</string>
+    <string name="notification_lost_follower_message">%s unfollowed you</string>
+    <string name="notification_new_followers_title">New Followers</string>
+    <string name="notification_new_followers_message">You gained %d new followers</string>
+    <string name="notification_blocker_title">Someone Blocked You</string>
+    <string name="notification_blocker_message">%s may have blocked you</string>
+    <string name="stories_title">Stories</string>
+
+
+    <!-- Errors -->
+    <string name="error_loading_data">Error loading data</string>
+    <string name="try_again">Try Again</string>
+</resources>
